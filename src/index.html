@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@100..900&display=swap"
       rel="stylesheet"
     />
 
@@ -27,6 +27,7 @@
       href="./styles/index.scss"
     />
   </head>
+
   <body>
     <div
       class="card"
@@ -36,16 +37,15 @@
         <img
           src="./images/imac.jpeg"
           alt="IMac Image"
-          class="card__imac"
         />
       </div>
 
       <div class="card__content">
-        <div class="caption">
-          <section class="caption__main">
+        <div class="card__caption">
+          <section class="card__title">
             APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
           </section>
-          <section class="caption__secondary">Product code: 195434</section>
+          <section class="card__code">Product code: 195434</section>
         </div>
 
         <div class="stars stars--4">
@@ -59,14 +59,14 @@
           <section class="stars__reviews">Reviews: 5</section>
         </div>
 
-        <div class="price">
-          <section class="price__caption">Price:</section>
-          <section class="price__value">$2,199</section>
+        <div class="card__price">
+          <section class="card__price-label">Price:</section>
+          <section class="card__price-value">$2,199</section>
         </div>
 
         <a
           href="#"
-          class="button"
+          class="card__button"
           data-qa="hover"
         >
           Buy
